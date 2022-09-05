@@ -1,0 +1,78 @@
+.box {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.box__imagem {
+    margin: 0 3px;
+    position: relative;
+}
+
+.img__ajani {
+    width: 950px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+.descrição {
+    position: absolute;
+    left: 150px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px 110px;
+    border-radius: 10px 10px 0 0;
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box__personagens {
+    list-style-type: none;
+    padding: 0;
+}
+
+.box__personagens-imagem {
+    display: flex;
+    align-items: center;
+    max-width: 305px;
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+
+.descrição__elfo {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 70.6px;
+    border-radius: 0 0 10px 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.descrição__guerreira {
+    position: absolute;
+    top: 285px;
+    left: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 54.6px;
+    border-radius: 0 0 10px 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.descrição__vingadora {
+    position: absolute;
+    top: 511px;
+    left: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 106.6px;
+    border-radius: 0 0 10px 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
