@@ -1,6 +1,6 @@
-@import url("/assets/css/cabecalho.css");
-@import url("/assets/css/box.css");
-@import url("/assets/css/rodape.css");
+@import url("./cabecalho.css");
+@import url("./box.css");
+@import url("./rodape.css");
 
 :root {
     --fonte-principal: "Montserrat";
@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: url(/assets/img/background.png);
+    background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-size: auto;
     font-family: var(--fonte-principal);
